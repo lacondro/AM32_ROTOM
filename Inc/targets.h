@@ -271,6 +271,16 @@
 
 /*********************************************************************AT32F421
  * targets*********************************************/
+#ifdef ROTOM_F421_SINGLE
+#define FIRMWARE_NAME "ROTOM F421"
+#define FILE_NAME "ROTOM_F421_SINGLE"
+#define DEAD_TIME 60
+#define HARDWARE_GROUP_AT_B
+#define HARDWARE_GROUP_AT_045
+#define USE_SERIAL_TELEMETRY
+#define ADC_CHANNEL_CURRENT ADC_CHANNEL_6
+#define ADC_CHANNEL_VOLTAGE ADC_CHANNEL_3
+#endif
 
 #ifdef TBS_6S_4IN1_F421
 #define FIRMWARE_NAME "TBSlu6s4in1"
