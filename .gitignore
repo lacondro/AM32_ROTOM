@@ -1,4 +1,4 @@
-obj/
+# obj/
 downloads/
 tools/
 .vscode
@@ -7,10 +7,10 @@ Keil_Projects/*.uvguix.*
 Keil_Projects/Objects
 Keil_Projects/RTE/*
 Keil_Projects/Listings
-*.bin
+# *.bin
 *.elf
 *.d
-*.hex
+# *.hex
 *.log
 *~
 *.map
