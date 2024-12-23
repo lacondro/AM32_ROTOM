@@ -1,0 +1,9 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/Users/minku/Projects/AM32_ROTOM/obj",
+            "binaryPath": "/Users/minku/Projects/AM32_ROTOM/obj/AM32_AT32DEV_F421_2.17.elf",
+            "binaryArgs": []
+        }
+    ]
+}
