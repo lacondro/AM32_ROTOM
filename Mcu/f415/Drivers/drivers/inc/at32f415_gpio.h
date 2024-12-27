@@ -89,7 +89,7 @@ extern "C" {
 #define TMR2_MUX_11                      TMR2_GMUX_011     /*!< tmr2_ch1_ext(pa15), tmr2_ch2(pb3),   tmr2_ch3(pb10),  tmr2_ch4(pb11) */
 #define TMR3_MUX_10                      TMR3_GMUX_0010    /*!< tmr3_ch1(pb4), tmr3_ch2(pb5), tmr3_ch3(pb0), tmr3_ch4(pb1) */
 #define TMR3_MUX_11                      TMR3_GMUX_0011    /*!< tmr3_ch1(pc6), tmr3_ch2(pc7), tmr3_ch3(pc8), tmr3_ch4(pc9) */
-#define CAN_MUX_10                       CAN1_GMUX_0010    /*!< can_rx(pb8), can_tx(pb9) */
+#define CAN_MUX_10                       CAN1_GMUX_0000    /*!< can_rx(pa11), can_tx(pa12) */
 #define PD01_MUX                         PD01_GMUX         /*!< pd0/pd1 mapping on osc_in/osc_out */
 #define TMR5CH4_MUX                      TMR5CH4_GMUX      /*!< lick connected to tmr5_ch4 input capture for calibration */
 #define ADC1_ETP_MUX                     ADC1_ETP_GMUX     /*!< adc1 external trigger preempted conversion muxing */

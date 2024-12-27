@@ -285,6 +285,8 @@
 // #define CURRENT_OFFSET 505 // mv
 // #define USE_NTC
 // #define ADC_CHANNEL_TEMP ADC_CHANNEL_2
+#define LED_ON_PB3
+
 #endif
 
 #ifdef TBS_6S_4IN1_F421
